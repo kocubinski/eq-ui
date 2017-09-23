@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<!--ADDBLOCK: START-->
+	<Gauge item="TOTW_TargetHP">
+		<ScreenID>TOTW_TargetHP</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<NoWrap>true</NoWrap>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<GaugeOffsetY>10</GaugeOffsetY>
+		<TextOffsetY>-3</TextOffsetY>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<BottomAnchorOffset>28</BottomAnchorOffset>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<FillTint>
+			<R>240</R>
+			<G>0</G>
+			<B>0</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<EQType>6</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_GaugeBackground</Background>
+			<Fill>A_GaugeFill</Fill>
+			<Lines>A_GaugeLines</Lines>
+			<LinesFill>A_GaugeLinesFill</LinesFill>
+			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Label item="TOTW_TargetHPLabel">
+		<ScreenID>TOTW_TargetHPLabel</ScreenID>
+		<EQType>29</EQType>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Font>2</Font>
+		<Text></Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<TopAnchorOffset>12</TopAnchorOffset>
+		<BottomAnchorOffset>23</BottomAnchorOffset>
+		<LeftAnchorOffset>-10</LeftAnchorOffset>
+	</Label>
+
+	<Label item="TOTW_TargetHPPercLabel">
+		<ScreenID>TOTW_TargetHPPercLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<Text>%</Text>
+		<TopAnchorOffset>12</TopAnchorOffset>
+		<BottomAnchorOffset>23</BottomAnchorOffset>
+		<LeftAnchorOffset>17</LeftAnchorOffset>
+	</Label>
+
+	<Label item="TOTW_AggroPctPlayerLabel">
+		<ScreenID>TOTW_AggroPctPlayerLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<NoWrap>true</NoWrap>
+		<AlignLeft>true</AlignLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<Text></Text>
+		<EQType>306</EQType>
+		<TopAnchorOffset>50</TopAnchorOffset>
+		<BottomAnchorOffset>63</BottomAnchorOffset>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+	</Label>
+
+	<Label item="TOTW_AggroNameSecondaryLabel">
+		<ScreenID>TOTW_AggroNameSecondaryLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<Text></Text>
+		<EQType>304</EQType>
+		<TopAnchorOffset>50</TopAnchorOffset>
+		<BottomAnchorOffset>63</BottomAnchorOffset>
+	</Label>
+
+	<Label item="TOTW_AggroPctSecondaryLabel">
+		<ScreenID>TOTW_AggroPctSecondaryLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<Text></Text>
+		<EQType>308</EQType>
+		<TopAnchorOffset>50</TopAnchorOffset>
+		<BottomAnchorOffset>63</BottomAnchorOffset>
+		<LeftAnchorOffset>35</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+	</Label>
+<!--ADDBLOCK: END-->
+
+<Gauge item="TargetOfTarget_HP">
+<!--MODIFY-->	<Font>2</Font>
+<!--ADD-->	<AutoStretch>true</AutoStretch>
+<!--MODIFY-->	<GaugeOffsetY>10</GaugeOffsetY>
+<!--MODIFY-->	<TextOffsetX>0</TextOffsetX>
+<!--ADD-->	<TextOffsetY>-3</TextOffsetY>
+<!--ADD-->	<RightAnchorToLeft>false</RightAnchorToLeft>
+<!--ADD-->	<LeftAnchorOffset>26</LeftAnchorOffset>
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+<!--ADD-->	<TopAnchorOffset>30</TopAnchorOffset>
+<!--ADD-->	<BottomAnchorOffset>51</BottomAnchorOffset>
+</Gauge>
+
+<Label item="TargetOfTarget_HPLabel">
+<!--ADD-->	<AutoStretch>true</AutoStretch>
+<!--ADD-->	<Font>1</Font>
+<!--MODIFY-->	<AlignCenter>true</AlignCenter>
+<!--ADD-->	<RightAnchorToLeft>false</RightAnchorToLeft>
+<!--ADD-->	<TopAnchorOffset>39</TopAnchorOffset>
+<!--ADD-->	<BottomAnchorOffset>49</BottomAnchorOffset>
+<!--ADD-->	<LeftAnchorOffset>16</LeftAnchorOffset>
+</Label>
+
+<Label item="TargetOfTarget_HPPercLabel">
+<!--ADD-->	<AutoStretch>true</AutoStretch>
+<!--ADD-->	<Font>1</Font>
+<!--MODIFY-->	<AlignCenter>true</AlignCenter>
+<!--ADD-->	<RightAnchorToLeft>false</RightAnchorToLeft>
+<!--ADD-->	<TopAnchorOffset>39</TopAnchorOffset>
+<!--ADD-->	<BottomAnchorOffset>49</BottomAnchorOffset>
+<!--ADD-->	<LeftAnchorOffset>38</LeftAnchorOffset>
+</Label>
+
+<Screen item="TargetOfTargetWindow">
+<!--ADD-->	<MinHSize>56</MinHSize>
+<!--ADD-->	<MinVSize>30</MinVSize>
+<!--MODIFY-->	<Style_Titlebar>false</Style_Titlebar>
+<!--MODIFY-->	<Style_Sizable>true</Style_Sizable>
+<!--ADD-->	<Style_ClientMovable>true</Style_ClientMovable>
+<!--ADD-->	<Pieces>TOTW_TargetHP</Pieces>
+<!--ADD-->	<Pieces>TOTW_TargetHPLabel</Pieces>
+<!--ADD-->	<Pieces>TOTW_TargetHPPercLabel</Pieces>
+<!--ADD-->	<Pieces>TOTW_AggroPctPlayerLabel</Pieces>
+<!--ADD-->	<Pieces>TOTW_AggroNameSecondaryLabel</Pieces>
+<!--ADD-->	<Pieces>TOTW_AggroPctSecondaryLabel</Pieces>
+</Screen>
+</XML>

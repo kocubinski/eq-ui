@@ -1,0 +1,7 @@
+<Screen item="BodyTintWnd">
+	<Size>
+<!--MODIFY-->	<CX>168</CX>
+<!--MODIFY-->	<CY>304</CY>
+	</Size>
+<!--MODIFY-->	<Style_Sizable>false</Style_Sizable>
+</Screen>

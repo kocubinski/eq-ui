@@ -1,0 +1,93 @@
+	<Label item ="GVW_NPCName">
+<!--MODIFY-->	<Font>5</Font>
+		<Location>
+<!--MODIFY-->		<Y>4</Y>
+		</Location>
+	</Label>
+
+	<InvSlot item = "GVW_MyItemSlot0">
+		<Location>
+<!--MODIFY-->		<X>27</X>
+		</Location>
+	</InvSlot>
+
+	<InvSlot item = "GVW_MyItemSlot1">
+		<Location>
+<!--MODIFY-->		<X>27</X>
+		</Location>
+	</InvSlot>
+
+	<InvSlot item = "GVW_MyItemSlot2">
+		<Location>
+<!--MODIFY-->		<X>27</X>
+		</Location>
+	</InvSlot>
+
+	<InvSlot item = "GVW_MyItemSlot3">
+		<Location>
+<!--MODIFY-->		<X>27</X>
+		</Location>
+	</InvSlot>
+
+	<Button item = "GVW_MyMoney0">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>86</CX>
+		</Size>
+	</Button>
+
+	<Button item = "GVW_MyMoney1">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>86</CX>
+		</Size>
+	</Button>
+
+	<Button item = "GVW_MyMoney2">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>86</CX>
+		</Size>
+	</Button>
+
+	<Button item = "GVW_MyMoney3">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>86</CX>
+		</Size>
+	</Button>
+
+	<Button item = "GVW_Give_Button">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+<!--MODIFY-->		<Y>297</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>86</CX>
+		</Size>
+	</Button>
+
+	<Button item = "GVW_Cancel_Button">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+<!--MODIFY-->		<Y>321</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>86</CX>
+		</Size>
+	</Button>
+
+<Screen item = "GiveWnd">
+	<Size>
+<!--MODIFY-->		<CX>96</CX>
+<!--MODIFY-->		<CY>361</CY>
+	</Size>
+</Screen>

@@ -1,0 +1,6 @@
+<Screen item = "BandolierWnd">
+	<Size>
+<!--MODIFY-->		<CX>202</CX>
+<!--MODIFY-->		<CY>201</CY>
+	</Size>
+</Screen>

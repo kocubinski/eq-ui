@@ -1,0 +1,11 @@
+<Page item="IDW_ItemDescriptionTab">
+<!--ADD-->	<Style_AutoVScroll>true</Style_AutoVScroll>
+<!--ADD-->	<Style_VScroll>true</Style_VScroll>
+</Page>
+
+<TabBox item="IDW_ItemDescriptionTabBox">
+<!--MODIFY-->	<LeftAnchorOffset>0</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>0</RightAnchorOffset>
+<!--MODIFY-->	<TopAnchorOffset>1</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>0</BottomAnchorOffset>
+ </TabBox>

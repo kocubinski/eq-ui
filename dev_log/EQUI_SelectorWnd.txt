@@ -1,0 +1,7 @@
+<Screen item = "SelectorWindow">
+	<Size>
+<!--MODIFY-->		<CX>500</CX>
+<!--MODIFY-->		<CY>28</CY>
+	</Size>
+<!--MODIFY-->	<Style_Titlebar>false</Style_Titlebar>
+</Screen>

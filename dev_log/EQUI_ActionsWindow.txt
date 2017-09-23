@@ -1,0 +1,6 @@
+<Screen item = "ActionsWindow">
+	<Size>
+<!--MODIFY-->		<CX>120</CX>
+<!--MODIFY-->		<CY>186</CY>
+	</Size>
+</Screen>

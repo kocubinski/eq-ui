@@ -1,0 +1,129 @@
+<Gauge item="PIW_PetHPGauge">
+	<Location>
+<!--MODIFY-->		<Y>20</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>110</CX>
+<!--MODIFY-->		<CY>16</CY>
+	</Size>
+<!--MODIFY-->	<GaugeOffsetY>0</GaugeOffsetY>
+<!--MODIFY-->	<TextOffsetX>6</TextOffsetX>
+</Gauge>
+
+<Gauge item="PIW_PetTargetHPGauge">
+	<Location>
+<!--MODIFY-->		<Y>2</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>110</CX>
+<!--MODIFY-->		<CY>16</CY>
+	</Size>
+<!--MODIFY-->	<GaugeOffsetY>0</GaugeOffsetY>
+<!--MODIFY-->	<TextOffsetX>6</TextOffsetX>
+</Gauge>
+
+<Button item="PIW_Pet0_Button">
+	<Location>
+<!--MODIFY-->		<Y>38</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet1_Button">
+	<Location>
+<!--MODIFY-->		<X>58</X>
+<!--MODIFY-->		<Y>38</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet2_Button">
+	<Location>
+<!--MODIFY-->		<Y>60</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet3_Button">
+	<Location>
+<!--MODIFY-->		<X>58</X>
+<!--MODIFY-->		<Y>60</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet4_Button">
+	<Location>
+<!--MODIFY-->		<Y>82</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet5_Button">
+	<Location>
+<!--MODIFY-->		<X>58</X>
+<!--MODIFY-->		<Y>82</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet6_Button">
+	<Location>
+<!--MODIFY-->		<Y>104</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet7_Button">
+	<Location>
+<!--MODIFY-->		<X>58</X>
+<!--MODIFY-->		<Y>104</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet8_Button">
+	<Location>
+<!--MODIFY-->		<Y>126</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet9_Button">
+	<Location>
+<!--MODIFY-->		<X>58</X>
+<!--MODIFY-->		<Y>126</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet10_Button">
+	<Location>
+<!--MODIFY-->		<Y>148</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet11_Button">
+	<Location>
+<!--MODIFY-->		<X>58</X>
+<!--MODIFY-->		<Y>148</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet12_Button">
+	<Location>
+<!--MODIFY-->		<Y>170</Y>
+	</Location>
+</Button>
+
+<Button item="PIW_Pet13_Button">
+	<Location>
+<!--MODIFY-->		<X>58</X>
+<!--MODIFY-->		<Y>170</Y>
+	</Location>
+</Button>
+
+<Screen item="PIW_BuffWindow">
+<!--MODIFY-->	<LeftAnchorOffset>114</LeftAnchorOffset>
+<!--MODIFY-->	<TopAnchorOffset>2</TopAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>2</BottomAnchorOffset>
+</Screen>
+
+<Screen item="PetInfoWindow">
+<!--MODIFY-->	<MinHSize>114</MinHSize>
+<!--MODIFY-->	<MinVSize>38</MinVSize>
+<!--MODIFY-->	<Style_Titlebar>false</Style_Titlebar>
+<!--MODIFY-->	<Style_Minimizebox>false</Style_Minimizebox>
+<!--ADD-->	<Style_ClientMovable>true</Style_ClientMovable>
+</Screen>

@@ -1,0 +1,6 @@
+<Screen item="SpellBookWnd">
+	<Size>
+<!--MODIFY-->		<CX>505</CX>
+<!--MODIFY-->		<CY>333</CY>
+	</Size>
+</Screen>

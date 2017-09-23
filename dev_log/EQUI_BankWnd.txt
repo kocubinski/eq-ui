@@ -1,0 +1,185 @@
+	<Label item="BW_BankerName">
+<!--MODIFY-->	<Font>5</Font>
+		<Location>
+<!--MODIFY-->		<X>0</X>
+<!--MODIFY-->		<Y>5</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>182</CX>
+		</Size>
+	</Label>
+	<InvSlot item="BW_BankSlot0">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot1">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot2">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot3">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot4">
+		<Location>
+<!--MODIFY-->		<X>44</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot5">
+		<Location>
+<!--MODIFY-->		<X>44</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot6">
+		<Location>
+<!--MODIFY-->		<X>44</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot7">
+		<Location>
+<!--MODIFY-->		<X>44</X>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot8">
+		<Location>
+<!--MODIFY-->		<X>96</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot9">
+		<Location>
+<!--MODIFY-->		<X>96</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot10">
+		<Location>
+<!--MODIFY-->		<X>96</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot11">
+		<Location>
+<!--MODIFY-->		<X>96</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot12">
+		<Location>
+<!--MODIFY-->		<X>136</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot13">
+		<Location>
+<!--MODIFY-->		<X>136</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot14">
+		<Location>
+<!--MODIFY-->		<X>136</X>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_BankSlot15">
+		<Location>
+<!--MODIFY-->		<X>136</X>
+		</Location>
+	</InvSlot>
+	<Button item="BW_AutoButton">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+<!--MODIFY-->		<Y>195</Y>
+		</Location>
+	</Button>
+	<Label item="BW_SharedBankLabel">
+		<Location>
+<!--MODIFY-->		<X>5</X>
+<!--MODIFY-->		<Y>230</Y>
+		</Location>
+	</Label>
+	<InvSlot item="BW_SharedBankSlot0">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+<!--MODIFY-->		<Y>248</Y>
+		</Location>
+	</InvSlot>
+	<InvSlot item="BW_SharedBankSlot1">
+		<Location>
+<!--MODIFY-->		<X>44</X>
+<!--MODIFY-->		<Y>248</Y>
+		</Location>
+	</InvSlot>
+	<Button item="BW_SharedMoney0">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>80</CX>
+		</Size>
+	</Button>
+	<Button item="BW_AltStorageButton">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+<!--MODIFY-->		<Y>319</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>80</CX>
+		</Size>
+	</Button>
+	<Button item="BW_Money0">
+		<Location>
+<!--MODIFY-->		<Y>195</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>80</CX>
+		</Size>
+	</Button>
+	<Button item="BW_Money1">
+		<Location>
+<!--MODIFY-->		<Y>219</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>80</CX>
+		</Size>
+	</Button>
+	<Button item="BW_Money2">
+		<Location>
+<!--MODIFY-->		<Y>243</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>80</CX>
+		</Size>
+	</Button>
+	<Button item="BW_Money3">
+		<Location>
+<!--MODIFY-->		<Y>267</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>80</CX>
+		</Size>
+	</Button>
+	<Button item="BW_ChangeButton">
+		<Size>
+<!--MODIFY-->		<CX>80</CX>
+		</Size>
+	</Button>
+	<Button item="BW_DoneButton">
+		<Location>
+<!--MODIFY-->		<Y>319</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->		<CX>80</CX>
+		</Size>
+	</Button>
+	<Button item="BW_FindItemButton">
+<!--MODIFY-->		<X>92</X>
+<!--MODIFY-->		<Y>319</Y>
+	</Button>
+	<Screen item="BankWnd">
+		<Size>
+<!--MODIFY-->		<CX>182</CX>
+<!--MODIFY-->		<CY>359</CY>
+		</Size>
+	</Screen>

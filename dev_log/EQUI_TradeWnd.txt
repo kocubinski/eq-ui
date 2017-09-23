@@ -1,0 +1,6 @@
+<Screen item = "TradeWnd">
+	<Size>
+<!--MODIFY-->		<CX>222</CX>
+	</Size>
+<!--MODIFY-->	<Style_Sizable>false</Style_Sizable>
+</Screen>

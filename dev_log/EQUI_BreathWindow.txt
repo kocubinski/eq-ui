@@ -1,0 +1,39 @@
+<Gauge item="BREATH_Gauge">
+	<Location>
+<!--MODIFY-->		<X>0</X>
+<!--MODIFY-->		<Y>0</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>166</CX>
+<!--MODIFY-->		<CY>16</CY>
+	</Size>
+</Gauge>
+
+<!--ADD-->	<Label item="AirRemaining_Label">
+<!--ADD-->		<ScreenID>AirRemaining_Label</ScreenID>
+<!--ADD-->		<Font>2</Font>
+<!--ADD-->		<RelativePosition>true</RelativePosition>
+<!--ADD-->		<AutoStretch>true</AutoStretch>
+<!--ADD-->		<BottomAnchorToTop>false</BottomAnchorToTop>
+<!--ADD-->		<RightAnchorToLeft>false</RightAnchorToLeft>
+<!--ADD-->		<LeftAnchorOffset>5</LeftAnchorOffset>
+<!--ADD-->		<RightAnchorOffset>5</RightAnchorOffset>
+<!--ADD-->		<TopAnchorOffset>0</TopAnchorOffset>
+<!--ADD-->		<Text>Air Remaining</Text>
+<!--ADD-->		<TextColor>
+<!--ADD-->			<R>255</R>
+<!--ADD-->			<G>255</G>
+<!--ADD-->			<B>255</B>
+<!--ADD-->		</TextColor>
+<!--ADD-->		<NoWrap>true</NoWrap>
+<!--ADD-->		<AlignCenter>true</AlignCenter>
+<!--ADD-->	</Label>
+
+<Screen item="BreathWindow">
+	<Size>
+<!--MODIFY-->		<CX>168</CX>
+<!--MODIFY-->		<CY>18</CY>
+	</Size>
+<!--MODIFY-->	<Style_Titlebar>false</Style_Titlebar>
+<!--ADD-->	<Pieces>AirRemaining_Label</Pieces>
+</Screen>

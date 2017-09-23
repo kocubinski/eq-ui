@@ -1,0 +1,145 @@
+<Button item="CAW_Button1">
+	<Location>
+<!--MODIFY-->		<X>168</X>
+<!--MODIFY-->		<Y>4</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>37</CX>
+<!--MODIFY-->		<CY>34</CY>
+	</Size>
+</Button>
+
+<Button item="CAW_Button2">
+	<Location>
+<!--MODIFY-->		<X>209</X>
+<!--MODIFY-->		<Y>4</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>37</CX>
+<!--MODIFY-->		<CY>34</CY>
+	</Size>
+</Button>
+
+<Button item="CAW_Button3">
+	<Location>
+<!--MODIFY-->		<X>250</X>
+<!--MODIFY-->		<Y>4</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>37</CX>
+<!--MODIFY-->		<CY>34</CY>
+	</Size>
+</Button>
+
+<Button item="CAW_Button4">
+	<Location>
+<!--MODIFY-->		<X>291</X>
+<!--MODIFY-->		<Y>4</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>37</CX>
+<!--MODIFY-->		<CY>34</CY>
+	</Size>
+</Button>
+
+<Button item="CAW_Button5">
+	<Location>
+<!--MODIFY-->		<X>332</X>
+<!--MODIFY-->		<Y>4</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>37</CX>
+<!--MODIFY-->		<CY>34</CY>
+	</Size>
+</Button>
+
+<Button item="CAW_Button6">
+	<Location>
+<!--MODIFY-->		<X>373</X>
+<!--MODIFY-->		<Y>4</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>37</CX>
+<!--MODIFY-->		<CY>34</CY>
+	</Size>
+	</Button>
+
+<Button item="CAW_Button7">
+	<Location>
+<!--MODIFY-->		<X>414</X>
+<!--MODIFY-->		<Y>4</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>37</CX>
+<!--MODIFY-->		<CY>34</CY>
+	</Size>
+</Button>
+
+<Button item="CAW_Button8">
+	<Location>
+<!--MODIFY-->		<X>455</X>
+<!--MODIFY-->		<Y>4</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>37</CX>
+<!--MODIFY-->		<CY>34</CY>
+	</Size>
+</Button>
+
+<Button item="CAW_CombatEffectButton">
+	<Location>
+<!--MODIFY-->		<X>127</X>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>16</CX>
+<!--MODIFY-->		<CY>16</CY>
+	</Size>
+<!--ADD-->	<Style_Border>true</Style_Border>
+	<DecalSize>
+<!--MODIFY-->		<CX>14</CX>
+<!--MODIFY-->		<CY>14</CY>
+	</DecalSize>
+</Button>
+
+<Label item="CAW_CombatEffectLabel">
+	<Location>
+<!--MODIFY-->		<X>4</X>
+<!--MODIFY-->		<Y>12</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>119</CX>
+	</Size>
+</Label>
+
+<Gauge item="CAW_CombatEffectTimeRemainingGauge">
+	<Location>
+<!--MODIFY-->		<X>4</X>
+<!--MODIFY-->		<Y>28</Y>
+	</Location>
+	<Size>
+<!--MODIFY-->		<CX>119</CX>
+	</Size>
+</Gauge>
+
+<Button item="CAW_OpenCombatSkillSelectWnd">
+	<Location>
+<!--MODIFY-->		<X>127</X>
+<!--MODIFY-->		<Y>24</Y>
+	</Location>
+</Button>
+
+<Screen item="CombatAbilityWnd">
+<!--ADD-->	<MinHSize>127</MinHSize>
+<!--ADD-->	<MaxHSize>507</MaxHSize>
+<!--ADD-->	<MinVSize>42</MinVSize>
+<!--ADD-->	<MaxVSize>42</MaxVSize>
+<!--MODIFY-->	<Style_Titlebar>false</Style_Titlebar>
+<!--MODIFY-->	<Style_Minimizebox>false</Style_Minimizebox>
+<!--MODIFY-->	<Style_Sizable>true</Style_Sizable>
+<!--ADD-->	<Style_SizableBorderTop>false</Style_SizableBorderTop>
+<!--ADD-->	<Style_SizableBorderBottom>false</Style_SizableBorderBottom>
+<!--ADD-->	<Style_SizableBorderTopLeft>false</Style_SizableBorderTopLeft>
+<!--ADD-->	<Style_SizableBorderTopRight>false</Style_SizableBorderTopRight>
+<!--ADD-->	<Style_SizableBorderBottomLeft>false</Style_SizableBorderBottomLeft>
+<!--ADD-->	<Style_SizableBorderBottomRight>false</Style_SizableBorderBottomRight>
+</Screen>

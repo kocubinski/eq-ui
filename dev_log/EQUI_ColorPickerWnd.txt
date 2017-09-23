@@ -1,0 +1,6 @@
+<Screen item = "ColorPickerWnd">
+	<Size>
+<!--MODIFY-->		<CX>132</CX>
+<!--MODIFY-->		<CY>186</CY>
+	</Size>
+</Screen>

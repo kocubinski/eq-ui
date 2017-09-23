@@ -1,0 +1,3 @@
+<Screen item="ZoneGuideWnd">
+<!--MODIFY-->	<Style_Minimizebox>true</Style_Minimizebox>
+</Screen>

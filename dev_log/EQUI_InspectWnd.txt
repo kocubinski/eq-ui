@@ -1,0 +1,6 @@
+<Screen item="InspectWnd">
+	<Size>
+<!--MODIFY-->		<CX>210</CX>
+<!--MODIFY-->		<CY>367</CY>
+	</Size>
+</Screen>

@@ -1,0 +1,48 @@
+	<Label item="ALRW_ReminderLabel">
+		<Location>
+<!--MODIFY-->		<X>4</X>
+<!--MODIFY-->		<Y>5</Y>
+		</Location>
+	</Label>
+	<Label item="ALRW_HoursLabel">
+		<Location>
+<!--MODIFY-->		<X>103</X>
+<!--MODIFY-->		<Y>7</Y>
+		</Location>
+	</Label>
+	<Editbox item="ALRW_HoursEditbox">
+		<Location>
+<!--MODIFY-->		<X>176</X>
+<!--MODIFY-->		<Y>4</Y>
+		</Location>
+	</Editbox>
+	<Label item="ALRW_MinutesLabel">
+		<Location>
+<!--MODIFY-->		<X>103</X>
+<!--MODIFY-->		<Y>32</Y>
+		</Location>
+	</Label>
+	<Editbox item="ALRW_MinutesEditbox">
+		<Location>
+<!--MODIFY-->		<X>176</X>
+		</Location>
+	</Editbox>
+	<Button item="ALRW_CancelButton">
+		<Location>
+<!--MODIFY-->		<Y>58</Y>
+		</Location>
+	</Button>
+	<Button item="ALRW_OkButton">
+		<Location>
+<!--MODIFY-->		<X>115</X>
+<!--MODIFY-->		<Y>58</Y>
+		</Location>
+	</Button>
+<Screen item="AlarmWnd">
+		<Size>
+<!--MODIFY-->		<CX>212</CX>
+<!--MODIFY-->		<CY>98</CY>
+		</Size>
+<!--MODIFY-->	<Style_Closebox>true</Style_Closebox>
+<!--MODIFY-->	<Style_Minimizebox>true</Style_Minimizebox>
+</Screen>

@@ -1,0 +1,7 @@
+<Screen item = "PlayerCustomizationWnd">
+	<Size>
+<!--MODIFY-->		<CX>172</CX>
+<!--MODIFY-->		<CY>281</CY>
+	</Size>
+<!--MODIFY-->	<Style_Minimizebox>true</Style_Minimizebox>
+</Screen>

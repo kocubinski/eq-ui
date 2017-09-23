@@ -1,0 +1,6 @@
+<Button item="AAW_AutoGrantAAsButton">
+	<Location>
+<!--MODIFY-->		<X>530</X>
+<!--MODIFY-->		<Y>4</Y>
+	</Location>
+</Button>

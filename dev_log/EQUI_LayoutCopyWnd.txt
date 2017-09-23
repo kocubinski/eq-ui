@@ -1,0 +1,6 @@
+<Screen item="LayoutCopyWindow">
+	<Size>
+<!--MODIFY-->	<CX>310</CX>
+<!--MODIFY-->	<CY>216</CY>
+	</Size>
+</Screen>

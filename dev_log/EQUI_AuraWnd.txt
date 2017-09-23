@@ -1,0 +1,14 @@
+<Listbox item = "AW_AuraList">
+<!--MODIFY-->	<TopAnchorOffset>2</TopAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>2</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>2</BottomAnchorOffset>
+</Listbox>
+
+<Screen item = "AuraWindow">
+<!--ADD-->	<MinHSize>56</MinHSize>
+<!--ADD-->	<MinVSize>56</MinVSize>
+<!--MODIFY-->	<Style_Titlebar>false</Style_Titlebar>
+<!--MODIFY-->	<Style_Minimizebox>false</Style_Minimizebox>
+<!--ADD-->	<Style_ClientMovable>true</Style_ClientMovable>
+</Screen>

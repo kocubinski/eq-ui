@@ -1,0 +1,6 @@
+<Screen item = "QuantityWnd">
+	<Size>
+<!--MODIFY-->		<CX>141</CX>
+<!--MODIFY-->		<CY>81</CY>
+	</Size>
+</Screen>

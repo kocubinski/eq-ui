@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<!--ADDBLOCK: START-->
+	<Label item="SDW_SpellDurationLabel">
+		<ScreenID>SDW_SpellDurationLabel</ScreenID>
+	</Label>
+<!--ADDBLOCK: END-->
+
+	<Screen item="SpellDisplayWindow">
+<!--ADD-->	<Pieces>SDW_SpellDurationLabel</Pieces>
+	</Screen>
+</XML>

@@ -1,0 +1,4 @@
+<Screen item = "VoiceActionBar">
+<!--MODIFY-->	<Style_Closebox>true</Style_Closebox>
+<!--MODIFY-->	<Style_Minimizebox>true</Style_Minimizebox>
+</Screen>

@@ -1,0 +1,26 @@
+<Button item = "EQM_EQButton">
+	<Location>
+<!--MODIFY-->		<Y>0</Y>
+	</Location>
+</Button>
+
+<Button item = "EQM_SCButton">
+	<Size>
+<!--MODIFY-->		<CX>0</CX>
+<!--MODIFY-->		<CY>0</CY>
+	</Size>
+</Button>
+  
+<Button item = "EQM_SCFSButton">
+	<Size>
+<!--MODIFY-->		<CX>0</CX>
+<!--MODIFY-->		<CY>0</CY>
+	</Size>
+</Button>
+
+<Screen item = "EQMainWnd">
+	<Size>
+<!--MODIFY-->		<CX>44</CX>
+<!--MODIFY-->		<CY>44</CY>
+	</Size>
+</Screen>

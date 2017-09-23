@@ -1,0 +1,112 @@
+<Button item="GW_InviteButton">
+<!--MODIFY-->	<TopAnchorOffset>23</TopAnchorOffset>
+<!--ADD-->	<BottomAnchorOffset>2</BottomAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>60</RightAnchorOffset>
+<!--ADD-->	<LeftAnchorOffset>2</LeftAnchorOffset>
+</Button>
+
+<Button item="GW_DisbandButton">
+<!--MODIFY-->	<TopAnchorOffset>23</TopAnchorOffset>
+<!--ADD-->	<BottomAnchorOffset>2</BottomAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>118</RightAnchorOffset>
+</Button>
+
+<Button item="GW_FollowButton">
+<!--MODIFY-->	<TopAnchorOffset>23</TopAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>60</RightAnchorOffset>
+<!--ADD-->	<LeftAnchorOffset>2</LeftAnchorOffset>
+<!--ADD-->	<BottomAnchorOffset>2</BottomAnchorOffset>
+</Button>
+
+<Button item="GW_DeclineButton">
+<!--MODIFY-->	<TopAnchorOffset>23</TopAnchorOffset>
+<!--ADD-->	<BottomAnchorOffset>2</BottomAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>118</RightAnchorOffset>
+</Button>
+
+<Gauge item="GW_Gauge1">
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_PetGauge1">
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_ManaGauge1">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_STAGauge1">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_Gauge2">
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_PetGauge2">
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_ManaGauge2">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_STAGauge2">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_Gauge3">
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_PetGauge3">
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_ManaGauge3">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_STAGauge3">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_Gauge4">
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_PetGauge4">
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_ManaGauge4">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_STAGauge4">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_Gauge5">
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_PetGauge5">
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_ManaGauge5">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="GW_STAGauge5">
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Screen item="GroupWindow">
+<!--ADD-->	<MinHSize>120</MinHSize>
+<!--ADD-->	<MinVSize>25</MinVSize>
+<!--MODIFY-->	<Style_Titlebar>false</Style_Titlebar>
+<!--ADD-->	<Style_ClientMovable>true</Style_ClientMovable>
+</Screen>

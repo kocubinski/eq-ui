@@ -1,0 +1,45 @@
+<Label item="AMW_AggroTargetNameLabel">
+<!--MODIFY-->	<TopAnchorOffset>-1</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>12</BottomAnchorOffset>
+</Label>
+
+<Gauge item="AMW_AggroGauge">
+<!--MODIFY-->	<TopAnchorOffset>12</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>28</BottomAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>2</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Label item="AMW_AggroGaugeLabel">
+<!--MODIFY-->	<TopAnchorOffset>12</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>23</BottomAnchorOffset>
+</Label>
+
+<Label item="AMW_AggroGaugePercLabel">
+<!--MODIFY-->	<TopAnchorOffset>12</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>23</BottomAnchorOffset>
+</Label>
+
+<Label item="AMW_AggroMostHatedPercLabel">
+	<Location>
+<!--MODIFY-->		<X>2</X>
+<!--MODIFY-->		<Y>27</Y>
+	</Location>
+<!--ADD-->	<Font>2</Font>
+</Label>
+
+<Label item="AMW_AggroMostHatedNameLabel">
+<!--ADD-->	<Font>2</Font>
+<!--ADD-->	<AutoStretch>true</AutoStretch>
+<!--ADD-->	<TopAnchorOffset>27</TopAnchorOffset>
+<!--ADD-->	<BottomAnchorOffset>40</BottomAnchorOffset>
+<!--ADD-->	<RightAnchorToLeft>false</RightAnchorToLeft>
+<!--ADD-->	<LeftAnchorOffset>2</LeftAnchorOffset>
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+<!--MODIFY-->	<AlignCenter>true</AlignCenter>
+</Label>
+
+<Screen item="AggroMeterWnd">
+<!--ADD-->	<MinHSize>84</MinHSize>
+<!--ADD-->	<MinVSize>30</MinVSize>
+</Screen>

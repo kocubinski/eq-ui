@@ -1,0 +1,8 @@
+<Screen item="ExtendedTargetWnd">
+<!--ADD-->	<MinHSize>116</MinHSize>
+<!--ADD-->	<MinVSize>42</MinVSize>
+<!--MODIFY-->	<Style_Titlebar>false</Style_Titlebar>
+<!--MODIFY-->	<Style_Minimizebox>false</Style_Minimizebox>
+<!--ADD-->	<Style_ClientMovable>true</Style_ClientMovable>
+<!--MODIFY-->	<DrawTemplate>WDT_InnerGray</DrawTemplate>
+</Screen>

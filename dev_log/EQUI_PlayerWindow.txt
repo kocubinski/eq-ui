@@ -1,0 +1,227 @@
+<Ui2DAnimation item="A_AttackIndicatorTop">
+	<Frames>
+		<Size>
+<!--MODIFY-->			<CX>114</CX>
+<!--MODIFY-->			<CY>3</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="A_AttackIndicatorBottom">
+	<Frames>
+		<Size>
+<!--MODIFY-->			<CX>114</CX>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="A_AttackIndicatorLeft">
+	<Frames>
+		<Location>
+<!--MODIFY-->			<Y>3</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->			<CY>26</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="A_AttackIndicatorRight">
+	<Frames>
+		<Size>
+<!--MODIFY-->			<CX>3</CX>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<Ui2DAnimation item="A_AttackIndicatorFill">
+	<Frames>
+		<Location>
+<!--MODIFY-->			<X>3</X>
+<!--MODIFY-->			<Y>3</Y>
+		</Location>
+		<Size>
+<!--MODIFY-->			<CX>108</CX>
+<!--MODIFY-->			<CY>26</CY>
+		</Size>
+	</Frames>
+</Ui2DAnimation>
+
+<StaticAnimation item="A_AttackIndicatorAnimBottom">
+<!--MODIFY-->	<TopAnchorOffset>27</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>30</BottomAnchorOffset>
+</StaticAnimation>
+
+<StaticAnimation item="A_AttackIndicatorAnimLeft">
+<!--MODIFY-->	<TopAnchorOffset>2</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>27</BottomAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>3</RightAnchorOffset>
+</StaticAnimation>
+
+<StaticAnimation item="A_AttackIndicatorAnimRight">
+<!--MODIFY-->	<TopAnchorOffset>2</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>27</BottomAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>3</LeftAnchorOffset>
+</StaticAnimation>
+
+<StaticAnimation item="A_AttackIndicatorAnimFill">
+<!--MODIFY-->	<LeftAnchorOffset>3</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>3</RightAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>29</BottomAnchorOffset>
+</StaticAnimation>
+
+<Gauge item="Player_CombatTimer">
+<!--MODIFY-->	<TopAnchorOffset>62</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>72</BottomAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Label item="Player_CombatTimerLabel">
+<!--MODIFY-->	<TopAnchorOffset>61</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>71</BottomAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>9</LeftAnchorOffset>
+</Label>
+
+<Button item="PW_CombatStateAnim">
+<!--ADD-->	<TopAnchorOffset>2</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>28</BottomAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>28</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Button>
+	
+<Button item="PW_NewMailIcon">
+<!--MODIFY-->	<TopAnchorOffset>12</TopAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>0</LeftAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>35</BottomAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>25</RightAnchorOffset>
+<!--MODIFY-->	<RightAnchorToLeft>true</RightAnchorToLeft>
+<!--MODIFY-->	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+</Button>
+    
+   <Button item="PW_ParcelsIcon">
+<!--MODIFY-->	<BottomAnchorOffset>34</BottomAnchorOffset>
+<!--MODIFY-->	<TopAnchorOffset>14</TopAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>41</RightAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>21</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorToLeft>true</RightAnchorToLeft>
+<!--MODIFY-->	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+</Button>
+
+<Button item="PW_ParcelsOverLimitIcon">
+<!--MODIFY-->	<BottomAnchorOffset>34</BottomAnchorOffset>
+<!--MODIFY-->	<TopAnchorOffset>14</TopAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>61</RightAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>41</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorToLeft>true</RightAnchorToLeft>
+<!--MODIFY-->	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+</Button>
+	
+<Gauge item="Player_HP">
+<!--MODIFY-->	<TextOffsetY>3</TextOffsetY>
+<!--MODIFY-->	<TopAnchorOffset>-4</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>40</BottomAnchorOffset>
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+   
+<Label item="Player_HPLabel">
+<!--MODIFY-->	<TopAnchorOffset>29</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>39</BottomAnchorOffset>
+</Label>
+
+<Label item="Player_HPPercLabel">
+<!--MODIFY-->	<TopAnchorOffset>29</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>39</BottomAnchorOffset>
+</Label>
+
+<Gauge item="Pet_HP">
+<!--MODIFY-->	<TopAnchorOffset>36</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>40</BottomAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>6</RightAnchorOffset>
+</Gauge>
+
+<Gauge item="Player_Mana">
+<!--MODIFY-->	<TopAnchorOffset>40</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>50</BottomAnchorOffset>
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Label item="Player_ManaLabel">
+<!--MODIFY-->	<TopAnchorOffset>39</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>49</BottomAnchorOffset>
+</Label>
+
+<Label item="Player_ManaPercLabel">
+<!--MODIFY-->	<TopAnchorOffset>39</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>49</BottomAnchorOffset>
+</Label>
+
+<Gauge item="Player_Fatigue">
+<!--MODIFY-->	<TopAnchorOffset>50</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>60</BottomAnchorOffset>
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Gauge>
+
+<Label item="Player_FatigueLabel">
+<!--MODIFY-->	<TopAnchorOffset>49</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>59</BottomAnchorOffset>
+</Label>
+
+<Label item="Player_FatiguePercLabel">
+<!--MODIFY-->	<TopAnchorOffset>49</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>59</BottomAnchorOffset>
+</Label>
+
+<Button item="PW_VoiceVolume">
+<!--ADD-->	<TopAnchorOffset>13</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>28</BottomAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>41</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>26</RightAnchorOffset>
+</Button>
+
+<Button item="PW_GroupRoleTank">
+<!--ADD-->	<TopAnchorOffset>2</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>17</BottomAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>89</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>74</RightAnchorOffset>
+</Button>
+
+<Button item="PW_GroupRoleAssist">
+<!--MODIFY-->	<LeftAnchorOffset>75</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>60</RightAnchorOffset>
+</Button>
+
+<Button item="PW_GroupRolePuller">
+<!--ADD-->	<TopAnchorOffset>-2</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>13</BottomAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>59</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>44</RightAnchorOffset>
+</Button>
+
+<Button item="PW_GroupRoleMarkNPC">
+<!--MODIFY-->	<LeftAnchorOffset>44</LeftAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>29</RightAnchorOffset>
+</Button>
+
+<Label item="PW_AggroPctPlayerLabel">
+<!--MODIFY-->	<TopAnchorOffset>71</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>85</BottomAnchorOffset>
+<!--ADD-->	<LeftAnchorOffset>2</LeftAnchorOffset>
+</Label>
+
+<Label item="PW_AggroNameSecondaryLabel">
+<!--MODIFY-->	<TopAnchorOffset>71</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>85</BottomAnchorOffset>
+</Label>
+
+<Label item="PW_AggroPctSecondaryLabel">
+<!--MODIFY-->	<TopAnchorOffset>71</TopAnchorOffset>
+<!--MODIFY-->	<BottomAnchorOffset>85</BottomAnchorOffset>
+<!--ADD-->	<RightAnchorOffset>2</RightAnchorOffset>
+</Label>
+
+<Screen item="PlayerWindow">
+<!--ADD-->	<MinHSize>30</MinHSize>
+<!--ADD-->	<MinVSize>30</MinVSize>
+<!--MODIFY-->	<Style_Titlebar>false</Style_Titlebar>
+<!--ADD-->	<Style_ClientMovable>true</Style_ClientMovable>
+</Screen>

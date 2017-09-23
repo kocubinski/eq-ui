@@ -1,0 +1,3 @@
+<Screen item="ContainerWindow">
+<!--MODIFY-->	<Style_Minimizebox>true</Style_Minimizebox>
+</Screen>

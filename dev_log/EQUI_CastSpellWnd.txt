@@ -1,0 +1,18 @@
+<Screen item="CSPW_HorizontalOrientationTemplate">
+<!--MODIFY-->	<BottomAnchorOffset>-1</BottomAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>22</RightAnchorOffset>
+</Screen>
+
+<Screen item="CSPW_VerticalOrientationTemplate">
+<!--MODIFY-->	<BottomAnchorOffset>24</BottomAnchorOffset>
+<!--MODIFY-->	<RightAnchorOffset>-1</RightAnchorOffset>
+</Screen>
+
+<Screen item="CSPW_HorizontalOrientationBook">
+<!--MODIFY-->	<TopAnchorOffset>5</TopAnchorOffset>
+</Screen>
+
+<Screen item="CSPW_VerticalOrientationBook">
+<!--MODIFY-->	<TopAnchorOffset>25</TopAnchorOffset>
+<!--MODIFY-->	<LeftAnchorOffset>11</LeftAnchorOffset>
+</Screen>

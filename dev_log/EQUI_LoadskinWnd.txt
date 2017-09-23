@@ -1,0 +1,11 @@
+	<Label item="SKINW_SkinLabel">
+		<Location>
+<!--MODIFY-->		<Y>3</Y>
+		</Location>
+	</Label>
+<Screen item="LoadskinWnd">
+	<Size>
+<!--MODIFY-->		<CX>140</CX>
+<!--MODIFY-->		<CY>223</CY>
+	</Size>
+</Screen>
